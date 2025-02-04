@@ -1,0 +1,9 @@
+export const TYPE_POPULAR = 1
+export const TYPE_SEASONAL = 2
+export const TYPE_OBJECT = 3
+export const TYPE_OLD_PEOPLE = 4
+export const TYPE_MALE = 6
+export const TYPE_FEMALE = 7
+export const TYPE_PEDIATRICS = 8
+export const TYPE_PUBERTY = 9
+export const TYPE_PREGNANCY = 10

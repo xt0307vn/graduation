@@ -1,0 +1,63 @@
+:root {
+    // colors
+    --color-primary: #1a51a2;
+    --color-primary-200: rgba(109, 162, 237, 0.4);
+    --color-danger: #f22121;
+    --color-white: #ffffff;
+    --color-light-blue: #e1e7ef;
+    --color-gray: #ebebeb;
+    --color-gray-light: #F7F7F7;
+    --color-semidark-gray: #c5c5c5;
+
+    // text
+    --heading-section-100: 1.25rem;
+    --heading-section-125: 1.5rem;
+    --heading-section-150: 1.75rem;
+
+    --text-2xlarge-100: 1.5rem;
+    --text-2xlarge-125: 1.75rem;
+    --text-2xlarge-150: 2rem;
+    --text-2xlarge: var(--text-2xlarge-100);
+
+    --text-xlarge-100: 1.25rem;
+    --text-xlarge-125: 1.5rem;
+    --text-xlarge-150: 1.75rem;
+    --text-xlarge: var(--text-xlarge-100);
+
+    --text-large-100: 1.125rem;
+    --text-large-125: 1.375rem;
+    --text-large-150: 1.625rem;
+    --text-large: var(--text-large-100);
+
+    --text-medium-100: 1rem;
+    --text-medium-125: 1.25rem;
+    --text-medium-150: 1.5rem;
+    --text-medium: var(--text-medium-100);
+
+    --text-small-100: 0.875rem;
+    --text-small-125: 1.125rem;
+    --text-small-150: 1.375rem;
+    --text-small: var(--text-small-100);
+
+    --text-xsmall-100: 0.75rem;
+    --text-xsmall-125: 1rem;
+    --text-xsmall-150: 1.25rem;
+    --text-xsmall: var(--text-xsmall-100);
+
+    // width screen
+    --screen-xlarge: 90rem;
+    --screen-large: 75rem;
+    --screen-medium: 60rem;
+    --screen-small: 45rem;
+    --screen: var(--screen-large);
+}
+
+.large {
+    --text-2xlarge: var(--text-2xlarge-125);
+    --text-xlarge: var(--text-xlarge-125);
+    --text-large: var(--text-large-125);
+    --text-medium: var(--text-medium-125);
+    --text-small: var(--text-small-125);
+    --text-xsmall: var(--text-xsmall-125);
+    --screen: var(--screen-large);
+}

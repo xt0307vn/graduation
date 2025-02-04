@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    &--inner {
+    }
+
+    &__logo {
+        width: 11rem;
+
+        .logo__name {
+            font-size: 2.125rem;
+        }
+    }
+
+    &__search {
+        // background-color: var(--color-white);
+
+        .search__input {
+            color: #3c3c3c;
+        }
+    }
+}

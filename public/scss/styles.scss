@@ -1,0 +1,26 @@
+@use "base/typography";
+@use "base/reset";
+@use "base/global";
+@use "base/base";
+@use "utils/variables";
+
+// pages
+@use "pages/home";
+
+// layout
+@use "layout/header";
+@use "layout/footer";
+
+// components
+@use "components/blog";
+@use "components/medicine";
+@use "components/common/quill-editor";
+@use "components/common/datepicker";
+@use "components/table";
+@use "components/content_editor";
+@use "components/chatbot";
+
+// administrator
+@use "admin/layout/header" as admin-header;
+@use "admin/layout/footer" as admin-footer;
+@use "admin/layout/main" as admin-main;

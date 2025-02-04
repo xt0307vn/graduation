@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MyFont", serif;
+}
+
+a {
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input, textarea, button {
+    outline: none;
+    border: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* width */
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(71, 125, 255, 0.25);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #3383f8;
+}
+
+//body::-webkit-scrollbar-button {
+//    background-color: transparent;
+//}

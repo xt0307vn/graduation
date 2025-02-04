@@ -1,0 +1,42 @@
+.admin--inner {
+
+}
+
+.MuiBox-root.css-23htwk {
+    scroll-behavior: smooth;
+    /* width */
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: rgba(71, 125, 255, 0.25);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: var(--color-primary);
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #3383f8;
+    }
+}
+
+nav.MuiBox-root.css-1rpa731 {
+    /* width */
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: rgba(71, 125, 255, 0.25);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: var(--color-primary);
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #3383f8;
+    }
+}

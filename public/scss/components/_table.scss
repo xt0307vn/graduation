@@ -1,0 +1,25 @@
+.t-table {
+    tr {
+        border: 1px solid #cccccc;
+        border-left: none;
+        border-right: none;
+    }
+
+    th, td {
+        padding: 1rem 0.5rem;
+    }
+}
+
+.t-navigation{
+    &-right {
+        ul {
+            justify-content: right;
+        }
+    }
+
+    &-center {
+        ul {
+            justify-content: center;
+        }
+    }
+}

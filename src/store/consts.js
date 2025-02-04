@@ -1,0 +1,1 @@
+export const SET_BODY_CLASS = 'set_body_class';

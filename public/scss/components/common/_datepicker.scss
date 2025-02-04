@@ -1,0 +1,43 @@
+.datepicker {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 10;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    .days , .dates {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+    }
+
+    .days p {
+        font-size: var(--text-medium);
+        text-align: center;
+        font-weight: 500;
+        user-select: none;
+    }
+
+    .dates button {
+        width: 2.5rem;
+        aspect-ratio: 1;
+        border-radius: 50rem;
+        user-select: none;
+    }
+
+    .dates button[disabled] {
+        background-color: rgba(128, 128, 128, 0.11);
+    }
+
+    .dates button.today {
+        background-color: rgba(34, 131, 246, 0.21);
+    }
+
+    .dates button.selected {
+        background-color: var(--color-primary);
+        color: #fff;
+        font-weight: 600;
+    }
+}

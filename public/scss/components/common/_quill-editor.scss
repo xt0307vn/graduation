@@ -1,0 +1,12 @@
+.ql-editor {
+    min-height: 200px;
+}
+
+.quill.error {
+    .ql-toolbar {
+        border-color: #f00;
+    }
+    .ql-container {
+        border-color: #f00;
+    }
+}
